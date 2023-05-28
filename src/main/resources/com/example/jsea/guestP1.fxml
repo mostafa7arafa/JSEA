@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="127.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jsea.GuestController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a064d" height="130.0" stroke="BLACK" strokeType="INSIDE" width="146.0" />
+      <Label layoutX="23.0" layoutY="43.0" prefWidth="99.0" text="Guest" textFill="WHITE">
+         <font>
+            <Font name="Modern No. 20" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnTicket" layoutX="162.0" layoutY="46.0" mnemonicParsing="false" onAction="#toPerson" text="Ticket reservation" textAlignment="CENTER">
+         <font>
+            <Font name="Lucida Bright" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="396.0" layoutY="46.0" mnemonicParsing="false" onAction="#toUs" text="Who are we ?" textAlignment="CENTER">
+         <font>
+            <Font name="Lucida Bright" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

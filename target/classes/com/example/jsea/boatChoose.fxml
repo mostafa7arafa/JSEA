@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jsea.GuestController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a064d" height="76.0" stroke="BLACK" strokeType="INSIDE" width="602.0" />
+      <ChoiceBox fx:id="BoatCheck" layoutX="300.0" layoutY="24.0" prefWidth="150.0" />
+      <ImageView fx:id="iv" fitHeight="275.0" fitWidth="505.0" layoutX="48.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Yacht/C%20echo%20II.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="280.0" layoutY="343.0" mnemonicParsing="false" onAction="#toTrip" text="Next" />
+      <Label layoutX="160.0" layoutY="27.0" prefHeight="18.0" prefWidth="120.0" text="Choose your Fleet:" textFill="WHITE" />
+      <Label fx:id="warningBoat" layoutY="376.0" prefHeight="18.0" prefWidth="601.0" style="-fx-alignment: center; visibility: false;" text="You must choose a boat !!!" textFill="RED" />
+   </children>
+</AnchorPane>

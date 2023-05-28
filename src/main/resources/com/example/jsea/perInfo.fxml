@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="314.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jsea.GuestController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a064d" height="340.0" layoutY="-9.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+        <Label layoutX="9.0" layoutY="29.0" prefHeight="26.0" prefWidth="185.0" text="Personal Info" textFill="WHITE">
+            <font>
+                <Font name="Modern No. 20" size="33.0" />
+            </font>
+        </Label>
+      <Label layoutX="103.0" layoutY="94.0" prefHeight="18.0" prefWidth="66.0" text="Name:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="134.0" prefHeight="18.0" prefWidth="66.0" text="Age:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="172.0" prefHeight="18.0" prefWidth="66.0" text="Gender:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="211.0" prefHeight="20.0" prefWidth="88.0" text="Phone no:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="phNo" layoutX="224.0" layoutY="205.0" />
+      <TextField fx:id="ageID" layoutX="224.0" layoutY="128.0" promptText="ex. 21" />
+      <TextField fx:id="nameID" layoutX="224.0" layoutY="88.0" />
+      <Label layoutX="103.0" layoutY="253.0" prefHeight="20.0" prefWidth="102.0" text="Nationality:" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nation" layoutX="224.0" layoutY="247.0" />
+      <ChoiceBox fx:id="myChoiceBox" layoutX="224.0" layoutY="167.0" prefWidth="150.0" />
+      <Button fx:id="btnNextPI" layoutX="524.0" layoutY="273.0" mnemonicParsing="false" onAction="#nextEvent" text="Next" textOverrun="LEADING_ELLIPSIS" />
+      <Label fx:id="warning" layoutX="224.0" layoutY="38.0" prefHeight="18.0" prefWidth="401.0" style="visibility: false;" text="Please fill the given fields correctly !!!!" textAlignment="CENTER" textFill="RED" />
+      <TextField fx:id="ID" layoutX="474.0" layoutY="89.0" prefHeight="26.0" prefWidth="88.0" />
+      <Label layoutX="440.0" layoutY="92.0" prefHeight="20.0" prefWidth="27.0" text="ID:">
+         <font>
+            <Font name="Lucida Bright" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="451.0" layoutY="124.0" prefHeight="36.0" prefWidth="115.0" text="**your unique ID, for a special discount." wrapText="true">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+    </children>
+
+</AnchorPane>
