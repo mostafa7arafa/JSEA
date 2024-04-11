@@ -5,7 +5,8 @@ Jsea is a user-friendly application designed for booking sea trip tickets effort
 
 # UML Diagram
 
-![JSEA UML Diagram](https://www.linkpicture.com/q/jsea.png)
+![jsea](https://github.com/mostafa7arafa/JSEA/assets/58299212/0bc5674e-e698-4c4d-875a-584c9409175a)
+
 
 ## Classes demonstration 
 
